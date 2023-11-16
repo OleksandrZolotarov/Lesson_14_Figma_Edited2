@@ -1,0 +1,185 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,400,500,700&display=swap);
+
+body {
+	font-family: Poppins, sans-serif;
+}
+
+.wrapper {
+	background-color: #F8F9FA;
+}
+
+.header {}
+
+.header__container {}
+
+.main {
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+.main__container {}
+
+.articles {}
+
+.articles__content {
+	padding: 100px;
+}
+
+.articles__categories {
+	margin-bottom: 44px;
+}
+
+.categories {}
+
+.categories__row {
+	display: flex;
+}
+
+.categories__link-wrap {
+	flex: 1 1 auto;
+}
+
+.categories__link {
+	color: #495057;
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 2.083
+}
+
+
+.categories__columns-list {
+	display: flex;
+	flex: 0 1 139px;
+	gap: 20px;
+}
+
+.categories__list-item {}
+
+.categories__link_color {
+	color: rgba(73, 80, 87, 0.50);
+}
+
+.articles__cards {
+	margin-bottom: 60px;
+}
+
+.articles__row {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -15px;
+	row-gap: 45px;
+
+}
+
+.articles__column {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	flex: 0 0 33.333%;
+	padding: 0 15px;
+
+}
+
+.card {
+	flex: 0 0 393px;
+}
+
+.card__image {
+	width: auto;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.card-badge {
+	position: absolute;
+	top: 30px;
+	right: 29.48px;
+	width: 16.25%;
+	height: 10%;
+}
+
+.card-badge__link {
+	border-radius: 3px;
+	background: rgba(33, 37, 41, 0.30);
+	padding: 3px 12px 2px 12.77px;
+	text-align: center;
+	display: inline-block;
+	color: #F8F9FA;
+	font-size: 8px;
+	font-weight: 700;
+	line-height: 2.5;
+}
+
+.card__photo {
+	width: 100%;
+}
+
+.card__body-url {
+	margin-bottom: 30px;
+}
+
+.card__url {}
+
+.card__body>*:not(:last-child) {
+	margin-bottom: 15px;
+
+}
+
+.card__body {}
+
+
+.card__date {
+	color: #495057;
+	font-size: 12px;
+	font-weight: 300;
+	line-height: 1.66;
+}
+
+.card__title {
+	color: #212529;
+	font-size: 25px;
+	font-weight: 700;
+	line-height: 1.6;
+}
+
+.card__body>p {
+	color: #495057;
+	font-size: 12px;
+	font-weight: 300;
+	line-height: 1.66;
+
+}
+
+.articles__author {
+	color: #495057;
+	font-size: 12px;
+	font-weight: 300;
+	line-height: 1.66;
+
+
+}
+
+
+.articles__button {}
+
+.button {
+	width: 178px;
+	height: 40px;
+	margin: 0 auto;
+}
+
+.button__link {
+	display: inline-block;
+	color: #F8F9FA;
+	font-size: 12px;
+	font-weight: 500;
+	border-radius: 3px;
+	background: #212529;
+	text-align: center;
+	padding: 7px 50px 8px 49px;
+	line-height: 2.08;
+}
+
+.footer {}
+
+.footer__container {}
